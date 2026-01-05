@@ -26,4 +26,7 @@ relevant source, 138
 file the relevant sources are clustered, 140
 - file_length*: the length of the file.
 
-## PDF files and Raw Data
+## GitHub in Progress
+
+We will work on further details in the upcoming weeks. If you need any data, feel free to reach out to tobias.schimanski@df.uzh.ch in the meantime.
+
