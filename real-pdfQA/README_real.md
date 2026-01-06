@@ -4,6 +4,7 @@
 - [ClimRetrieve](https://aclanthology.org/2024.emnlp-main.969/)
 - [FinQA](https://arxiv.org/abs/2109.00122)
 - [FinanceBench](https://arxiv.org/abs/2311.11944)
+- [ClimateFinanceBench](https://arxiv.org/abs/2505.22752)
 - [FeTaQA](https://arxiv.org/abs/2104.00369)
 - [NaturalQuestions](https://research.google/pubs/natural-questions-a-benchmark-for-question-answering-research/)
 - [PaperTab and PaperText from Qasper](https://arxiv.org/abs/2105.03011)
