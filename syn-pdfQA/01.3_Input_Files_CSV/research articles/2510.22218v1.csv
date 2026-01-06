@@ -1,0 +1,524 @@
+,content,text_only,text_len,type,source_identifier,file_name
+0,"The Primordial Black Holes (PBHs) \cite{Zeldovich:1967lct, Hawking:1971ei, Carr:1974nx} are interesting in many research fields such as gravity, cosmology and astrophysics. Being generated from overdensed spacetime curvature fluctuations in the very early universe, the PBHs can escape from the constraint of Chandrasekhar limit, and thus have wider mass range than astrophysical black holes with fruitful properties. Not only is it possible for PBHs to act as $100\%$ dark matter, but also they can produce gravitational waves and/or Hawking radiations, which can be used as a probe of the early universe. See \cite{Sasaki:2018dmp, Yuan:2021qgz, Villanueva-Domingo:2021spv, Oncins:2022ydg, Escriva:2022duf, Carr:2025kdk} for recent reviews and references therein.  
+","The Primordial Black Holes (PBHs) are interesting in many research fields such as gravity, cosmology and astrophysics. Being generated from overdensed spacetime curvature fluctuations in the very early universe, the PBHs can escape from the constraint of Chandrasekhar limit, and thus have wider mass range than astrophysical black holes with fruitful properties. Not only is it possible for PBHs to act as dark matter, but also they can produce gravitational waves and/or Hawking radiations, which can be used as a probe of the early universe. See for recent reviews and references therein.",591,text,Source_0,2510.22218v1
+1,"The latest observations of gravitational waves with the pulsar timing array (PTA) have been released almost simultaneously by NANOGrav 15yr \cite{NANOGrav:2023gor, NANOGrav:2023hvm}, PPTA \cite{Reardon:2023gzh, Zic:2023gta}, EPTA (with InPTA) \cite{EPTA:2023fyk, EPTA:2023gyr} and CPTA \cite{Xu:2023wog}. By observing a group of millisecond pulsars, they presented the signal correlations of Hellings-Downs angular pattern from $2\sigma$ to over $4\sigma$, which indicates the evidence for stochastic gravitational wave background (SGWB). Moreover, a strain spectrum of $A\sim 10^{-15}$ at a reference of $1\text{yr}^{-1}$ (or nHz) has been found. Although sources from a population of supermassive black hole binary (SMBHB) are consistent, it shows that more exotic cosmological and astrophysical sources are more favored. As a precise example, the NANOGrav 15yr data prefers a power-law exponent of gravitational wave power spectral density $\gamma=3.2\pm0.6$ \cite{NANOGrav:2023gor, NANOGrav:2023hvm, NANOGrav:2023hfp} while the SMBHB gives rise to a more steep $\gamma=13/3$ \cite{Phinney:2001di}. For this reason, people are considering other mechanisms for this PTA signal, such as environment effects \cite{Ellis:2023dgf}, or other cosmological sources, such as primordial gravitational waves (pGWs) \cite{Grishchuk:1974ny, Starobinsky:1979ty}, scalar-induced gravitational waves (SIGWs) \cite{Tomita:1967wkp,Matarrese:1993zf,Matarrese:1997ay, Acquaviva:2002ud, Ananda:2006af, Domenech:2021ztg}, first-order phase transition (FOPT) \cite{Witten:1984rs, Hogan:1986dsh}, topological defects \cite{Vilenkin:1984ib, Burden:1985md, Hindmarsh:1994re} and so on. See \cite{Ellis:2023oxs} for review about these sources.
+","The latest observations of gravitational waves with the pulsar timing array (PTA) have been released almost simultaneously by NANOGrav 15yr , PPTA , EPTA (with InPTA) and CPTA . By observing a group of millisecond pulsars, they presented the signal correlations of Hellings-Downs angular pattern from to over , which indicates the evidence for stochastic gravitational wave background (SGWB). Moreover, a strain spectrum of at a reference of (or nHz) has been found. Although sources from a population of supermassive black hole binary (SMBHB) are consistent, it shows that more exotic cosmological and astrophysical sources are more favored. As a precise example, the NANOGrav 15yr data prefers a power-law exponent of gravitational wave power spectral density while the SMBHB gives rise to a more steep . For this reason, people are considering other mechanisms for this PTA signal, such as environment effects , or other cosmological sources, such as primordial gravitational waves (pGWs) , scalar-induced gravitational waves (SIGWs) , first-order phase transition (FOPT) , topological defects and so on. See for review about these sources.",1143,text,Source_1,2510.22218v1
+2,"Among those candidates of PTA sources mentioned above, there is an interesting possibility that it could be gravitational waves induced by scalar primordial perturbations. It has been shown in Ref. \cite{Figueroa:2023zhu} with the model comparison Bayesian analysis that, the SIGW signal provides a better fit to the PTA data than the astrophysical counterpart. Moreover, it also provides a mechanism for PBH formation. But wait. What about the amount of the PBHs if we require the SIGW be suitable to explain the PTA data? In standard cosmology, both PBHs and its accompanying SIGWs are produced by the small-scale perturbations that are generated near the end of inflation. However, in Ref. \cite{Franciolini:2023pbf}, it was claimed that for single-field inflationary scenarios without non-Gaussianity, or even with positive non-Gaussianity, the amount of PBHs will be overproduced (with its fraction $f_{\rm PBH}\geq 1$) when the SIGW spectrum is required to explain the PTA data. The same results are obtained in \cite{Dandoy:2023jot} even for earlier NANOGrav 12.5yr observational data analysis. Such a tension, dubbed as the ``overproduction problem"", will thus place severe constraints on inflationary models which is responsible for PBH production. 
+","Among those candidates of PTA sources mentioned above, there is an interesting possibility that it could be gravitational waves induced by scalar primordial perturbations. It has been shown in Ref. with the model comparison Bayesian analysis that, the SIGW signal provides a better fit to the PTA data than the astrophysical counterpart. Moreover, it also provides a mechanism for PBH formation. But wait. What about the amount of the PBHs if we require the SIGW be suitable to explain the PTA data? In standard cosmology, both PBHs and its accompanying SIGWs are produced by the small-scale perturbations that are generated near the end of inflation. However, in Ref. , it was claimed that for single-field inflationary scenarios without non-Gaussianity, or even with positive non-Gaussianity, the amount of PBHs will be overproduced (with its fraction ) when the SIGW spectrum is required to explain the PTA data. The same results are obtained in even for earlier NANOGrav 12.5yr observational data analysis. Such a tension, dubbed as the ``overproduction problem"", will thus place severe constraints on inflationary models which is responsible for PBH production.",1166,text,Source_2,2510.22218v1
+3,"The requirement to overcome this issue places constraints on the inflation models, which requires them to possess certain features. Naively speaking, it may be helpful to reduce the population of the formed PBHs with either a large negative non-Gaussianity \cite{Franciolini:2023pbf, Wang:2023ost, Liu:2023ymk, DeLuca:2023tun, Firouzjahi:2023xke, Chang:2023aba, Pi:2024lsu, Inui:2024fgk} or a different window function/threshold value \cite{Inomata:2023zup}, but for better illustration, it is important to have a concrete model, see \cite{Unal:2023srk, Geller:2023shn, HosseiniMansoori:2023mqh, Balaji:2023ehk, Gorji:2023sil, Zhu:2023gmx, Liu:2023pau, Frosina:2023nxu, Bhaumik:2023wmw, Choudhury:2023hfm, Yi:2023npi, Choudhury:2023fwk, Liu:2023hpw, Choudhury:2023fjs, Choudhury:2024one, Wang:2024euw, Domenech:2024rks, Papanikolaou:2024fzf, Choudhury:2024dzw, Choudhury:2024kjj}. In this work, we're particularly interested in the case where the dispersion relation of the inflaton field gets modified, with a correction of $k^4$ term. In some higher derivative theories or modified gravity theories interesting in cosmology, it is natural to modify the dispersion relation, while such a term will appear as a leading order correction \cite{Arkani-Hamed:2003pdi, Arkani-Hamed:2003juy, Qiu:2015aha, Qiu:2018nle}. Moreover, this term could also allow us to get a varying sound speed $c_s$, which is useful to generate PBHs without violating the consistency requirement and leading to strong coupling \cite{Ballesteros:2018wlw, Ballesteros:2021fsp, Gorji:2021isn, Qiu:2022klm}. Note that people have considered a constant $c_s$ different from unity during both inflation \cite{Choudhury:2023fwk,Choudhury:2023fjs} and the radiation-dominant era \cite{Balaji:2023ehk,Liu:2023hpw}. The former will affect the primordial power spectrum generated during inflation, while the latter will affect the transfer function in the calculation of the SIGW. On the other hand, the case where $c_s$ varys during the inflation era is less discussed. 
+","The requirement to overcome this issue places constraints on the inflation models, which requires them to possess certain features. Naively speaking, it may be helpful to reduce the population of the formed PBHs with either a large negative non-Gaussianity or a different window function/threshold value , but for better illustration, it is important to have a concrete model, see . In this work, we're particularly interested in the case where the dispersion relation of the inflaton field gets modified, with a correction of term. In some higher derivative theories or modified gravity theories interesting in cosmology, it is natural to modify the dispersion relation, while such a term will appear as a leading order correction . Moreover, this term could also allow us to get a varying sound speed , which is useful to generate PBHs without violating the consistency requirement and leading to strong coupling . Note that people have considered a constant different from unity during both inflation and the radiation-dominant era . The former will affect the primordial power spectrum generated during inflation, while the latter will affect the transfer function in the calculation of the SIGW. On the other hand, the case where varys during the inflation era is less discussed.",1284,text,Source_3,2510.22218v1
+4,"The rest of the paper is arrange as follows: In Sec. \ref{sec:pert} we calculate the primordial perturbations of general inflation model with modified dispersion relation, and obtain the curvature power spectrum. In Sec. \ref{sec:IGW} we discuss about the gravitational waves induced by such a power spectrum, and constrain the parameters using the recent PTA data. In Sec. \ref{sec:PBH} we consider the PBHs generated at the end of inflation, and compare the fraction of PBHs to the data constraint to see whether the overproduction issue can be effectively avoided. Sec. \ref{sec:conclusion} is our conclusions and discussions. 
+","The rest of the paper is arrange as follows: In Sec. we calculate the primordial perturbations of general inflation model with modified dispersion relation, and obtain the curvature power spectrum. In Sec. we discuss about the gravitational waves induced by such a power spectrum, and constrain the parameters using the recent PTA data. In Sec. we consider the PBHs generated at the end of inflation, and compare the fraction of PBHs to the data constraint to see whether the overproduction issue can be effectively avoided. Sec. is our conclusions and discussions.",565,text,Source_4,2510.22218v1
+5,"We consider the inflation model where the dispersion relation of the inflation perturbation is modified with a $k^4$ correction \cite{Arkani-Hamed:2003pdi, Arkani-Hamed:2003juy, Qiu:2015aha, Qiu:2018nle}. In general case without model specification, the Mukhanov-Sasaki equation of the curvature perturbation can be written as:
+","We consider the inflation model where the dispersion relation of the inflation perturbation is modified with a correction . In general case without model specification, the Mukhanov-Sasaki equation of the curvature perturbation can be written as:",246,text,Source_5,2510.22218v1
+6,"\begin{equation}
+\label{zetabar}
+{u_k''} {\rm{ + }}\left[{c_s^2{k^2} + {{\alpha }^2}{k^4}{\tau ^2} - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u _k} = 0~.
+\end{equation}","\begin{equation}
+\label{zetabar}
+{u_k''} {\rm{ + }}\left[{c_s^2{k^2} + {{\alpha }^2}{k^4}{\tau ^2} - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u _k} = 0~.
+\end{equation}",176,text,Source_6,2510.22218v1
+7,"Here, $c_s$ stands for the sound speed of the perturbation, $\tau$ stands for the conformal time and $\alpha$ is the coefficient of the $k^4$ term. The variable $u_k$ is redefinition of the curvature perturbation $\zeta_k$, with the relation
+","Here, stands for the sound speed of the perturbation, stands for the conformal time and is the coefficient of the term. The variable is redefinition of the curvature perturbation , with the relation",198,text,Source_7,2510.22218v1
+8,"\begin{equation}%
+\label{zeta}
+u_k =z\zeta_k~,~~~ z \propto a\left( \tau  \right)~.
+\end{equation}","\begin{equation}%
+\label{zeta}
+u_k =z\zeta_k~,~~~ z \propto a\left( \tau  \right)~.
+\end{equation}",98,text,Source_8,2510.22218v1
+9,"We consider the varying sound speed as:
+",We consider the varying sound speed as:,39,text,Source_9,2510.22218v1
+10,"\begin{equation}%
+\label{soundspeed}
+c_s  \left\{{\begin{array}{*{20}{r}}
+\simeq 1~,&\tau<\tau_\ast\\
+\ll 1~,&\tau>\tau_\ast
+\end{array}} \right.
+\end{equation}","\begin{equation}%
+\label{soundspeed}
+c_s  \left\{{\begin{array}{*{20}{r}}
+\simeq 1~,&\tau<\tau_\ast\\
+\ll 1~,&\tau>\tau_\ast
+\end{array}} \right.
+\end{equation}",160,text,Source_10,2510.22218v1
+11,"where $\tau_\ast$ is some pivot time \cite{Gorji:2021isn, Qiu:2022klm}. It is also convenient to dub the two regions as ``slow-roll phase"" and ``stealth phase"" respectively. Then Eq. \eqref{zetabar} turns out to be
+","where is some pivot time . It is also convenient to dub the two regions as ``slow-roll phase"" and ``stealth phase"" respectively. Then Eq. turns out to be",153,text,Source_11,2510.22218v1
+12,"\begin{align}\label{sreq}
+{u^{\rm{sr}}_k}'' +\left[{c_s^2{k^2}  - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u^{\rm{sr}}_k} = 0~~~
+\text{for slow-roll phase}~, \\
+\label{steq}
+{u^{\rm{st}}_k}''+\left[{{{\alpha }^2}{k^4}{\tau ^2} - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u^{\rm{st}}_k} = 0~~~
+\text{for stealth phase}~.
+\end{align}","\begin{align}\label{sreq}
+{u^{\rm{sr}}_k}'' +\left[{c_s^2{k^2}  - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u^{\rm{sr}}_k} = 0~~~
+\text{for slow-roll phase}~, \\
+\label{steq}
+{u^{\rm{st}}_k}''+\left[{{{\alpha }^2}{k^4}{\tau ^2} - \frac{{{\theta ^2} - 1/4}}{{{\tau ^2}}}} \right]{u^{\rm{st}}_k} = 0~~~
+\text{for stealth phase}~.
+\end{align}",346,text,Source_12,2510.22218v1
+13,"It is straightforward to get the solution in both phases, which has been done in \cite{Gorji:2021isn, Qiu:2022klm}: 
+","It is straightforward to get the solution in both phases, which has been done in :",82,text,Source_13,2510.22218v1
+14,"{u^{\rm{st}}_k}(k,\tau)&=&\sqrt{-\tau}\left[C^{\rm{st}}_{1}H^{(1)}_{3/4}\left(\frac{\alpha k^2\tau^2}{2}\right)+C^{\rm{st}}_{2} H^{(2)}_{3/4}\left(\frac{\alpha k^2\tau^2}{2}\right)\right]~,
+","{u^{}_k}(k,)&=&~,",17,text,Source_14,2510.22218v1
+15,"\end{eqnarray}
+where $C^{\rm{sr}}_{1}$, $C^{\rm{sr}}_{2}$, $C^{\rm{st}}_{1}$, $C^{\rm{st}}_{2}$ are constant coefficients, while $H^{(1)}$ and $H^{(2)}$ are the first and the second Hankel functions.
+","where , , , are constant coefficients, while and are the first and the second Hankel functions.",95,text,Source_15,2510.22218v1
+16,"The coefficients of the slow-roll phase solution can be determined by the initial condition of inflation, namely Bunch-Davies vacuum solution. This gives the coefficients as:
+","The coefficients of the slow-roll phase solution can be determined by the initial condition of inflation, namely Bunch-Davies vacuum solution. This gives the coefficients as:",174,text,Source_16,2510.22218v1
+17,"\begin{equation}
+   C^{\rm{sr}}_{1}=\frac{\sqrt{\pi}}{2}~,~~~C^{\rm{sr}}_{2}=0~.
+\end{equation}","\begin{equation}
+   C^{\rm{sr}}_{1}=\frac{\sqrt{\pi}}{2}~,~~~C^{\rm{sr}}_{2}=0~.
+\end{equation}",95,text,Source_17,2510.22218v1
+18,"On the other hand, in order to determine the coefficients of the stealth phase solution, we impose the junction relations at the pivot time $\tau_\ast$:
+","On the other hand, in order to determine the coefficients of the stealth phase solution, we impose the junction relations at the pivot time :",141,text,Source_18,2510.22218v1
+19,"\begin{align}
+\label{junction}
+    u^{\rm{sr}}_{k}|_{\tau=\tau_\ast}=u^{\rm{st}}_{k}|_{\tau=\tau_\ast}~,~~~{u^{\rm{sr}}_{k}}'|_{\tau=\tau_\ast}={u^{\rm{st}}_{k}}'|_{\tau=\tau_\ast}~.
+\end{align}","\begin{align}
+\label{junction}
+    u^{\rm{sr}}_{k}|_{\tau=\tau_\ast}=u^{\rm{st}}_{k}|_{\tau=\tau_\ast}~,~~~{u^{\rm{sr}}_{k}}'|_{\tau=\tau_\ast}={u^{\rm{st}}_{k}}'|_{\tau=\tau_\ast}~.
+\end{align}",194,text,Source_19,2510.22218v1
+20,"This will give rise to:
+",This will give rise to:,23,text,Source_20,2510.22218v1
+21,"\begin{equation}%
+\label{coefficient}
+\left[{\begin{array}{*{20}{c}}{{C^{\rm{st}}_1}}\\{{C^{\rm{st}}_2}}\end{array}} \right] ={\frac{{{\rm{\pi }}\alpha{k^2}}}{{8{\rm{i}}}}{C^{\rm{sr}}_1}\tau_\ast^2}\times
+\left[{\begin{array}{*{20}{c}}{{\rm{ + }}{c_s}{{\left({ - \alpha k \tau _\ast} \right)}^{ - 1}}H_{3/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau_\ast^2} \right)H_{1/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right) - H_{ - 1/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{3/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right)}\\
+{ - {c_s}{\left(  - \alpha k \tau_\ast \right)}^{ - 1}}H_{3/4}^{(1)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{1/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right) + H_{ - 1/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{3/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right)\end{array}} \right]~.
+\end{equation}","\begin{equation}%
+\label{coefficient}
+\left[{\begin{array}{*{20}{c}}{{C^{\rm{st}}_1}}\\{{C^{\rm{st}}_2}}\end{array}} \right] ={\frac{{{\rm{\pi }}\alpha{k^2}}}{{8{\rm{i}}}}{C^{\rm{sr}}_1}\tau_\ast^2}\times
+\left[{\begin{array}{*{20}{c}}{{\rm{ + }}{c_s}{{\left({ - \alpha k \tau _\ast} \right)}^{ - 1}}H_{3/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau_\ast^2} \right)H_{1/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right) - H_{ - 1/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{3/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right)}\\
+{ - {c_s}{\left(  - \alpha k \tau_\ast \right)}^{ - 1}}H_{3/4}^{(1)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{1/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right) + H_{ - 1/4}^{(2)}\left({\frac{{\alpha{k^2}}}{2}\tau _\ast^2} \right)H_{3/2}^{(1)}\left({ - {c_s}k{\tau _\ast}} \right)\end{array}} \right]~.
+\end{equation}",863,text,Source_21,2510.22218v1
+22,"We obtain the power spectrum of the curvature perturbations at their values at the end of inflation, namely $\tau\rightarrow 0$. In this limit, solution \eqref{stso} will have the following approximate behavior:
+","We obtain the power spectrum of the curvature perturbations at their values at the end of inflation, namely . In this limit, solution will have the following approximate behavior:",179,text,Source_22,2510.22218v1
+23,"\begin{equation}
+    \label{stsolutionend}
+    u^{\rm{st}}_{k} = {2^{3/2}}{\rm{i}}{{\rm{\pi }}^{ - 1}}{\rm{\Gamma }}\left({3/4} \right){\alpha ^{ - 3/4}}|{{C^{\rm{st}}_2} - {C^{\rm{st}}_1}}|{k^{ - 3/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}","\begin{equation}
+    \label{stsolutionend}
+    u^{\rm{st}}_{k} = {2^{3/2}}{\rm{i}}{{\rm{\pi }}^{ - 1}}{\rm{\Gamma }}\left({3/4} \right){\alpha ^{ - 3/4}}|{{C^{\rm{st}}_2} - {C^{\rm{st}}_1}}|{k^{ - 3/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}",252,text,Source_23,2510.22218v1
+24,"Due to the expressions \eqref{coefficient}, the behavior of Eq. \eqref{stsolutionend} will be different in different scales, labeled with $k$. For evolutions of $u_k$ before the pivot scale $\tau_\ast$, we always have $\alpha{k^2}\tau^2/2<-{c_s}k{\tau}$, see Fig. 1 (right panel) in \cite{Qiu:2022klm}. In large scales where $\alpha{k^2}\tau^2/2<-{c_s}k{\tau}<1$, the solution becomes
+","Due to the expressions , the behavior of Eq. will be different in different scales, labeled with . For evolutions of before the pivot scale , we always have , see Fig. 1 (right panel) in . In large scales where , the solution becomes",233,text,Source_24,2510.22218v1
+25,"\begin{equation}
+    \label{large}
+ u^{\rm{st}}_{k} =  - 2{\rm{i}}{{\rm{\pi }}^{ - 2}}{\rm{\Gamma }}\left({3/4} \right){\rm{\Gamma }}\left({{\rm{1}}/{\rm{4}}} \right){\rm{\Gamma }}\left({{\rm{3}}/{\rm{2}}} \right){c_{s}}^{ - {\rm{3}}/{\rm{2}}}{C^{\rm{sr}}_1}{k^{ - 3/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}","\begin{equation}
+    \label{large}
+ u^{\rm{st}}_{k} =  - 2{\rm{i}}{{\rm{\pi }}^{ - 2}}{\rm{\Gamma }}\left({3/4} \right){\rm{\Gamma }}\left({{\rm{1}}/{\rm{4}}} \right){\rm{\Gamma }}\left({{\rm{3}}/{\rm{2}}} \right){c_{s}}^{ - {\rm{3}}/{\rm{2}}}{C^{\rm{sr}}_1}{k^{ - 3/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}",320,text,Source_25,2510.22218v1
+26,"In medium scales where $\alpha{k^2}\tau^2/2 < 1 <  - {c_s}k{\tau}$, it becomes
+","In medium scales where , it becomes",35,text,Source_26,2510.22218v1
+27,"\begin{equation}
+    \label{medium}
+u^{\rm{st}}_{k} = {\rm{i}}\frac{4}{3}{2^{ - 3/2}}{{\rm{\pi }}^{ - 1/2}}c_s^{1/2}\tau _\ast^2{{\rm{e}}^{ -{{\rm{i}} {c_s}k{\tau _\ast}}}}{C^{\rm{sr}}_1}{k^{1/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}","\begin{equation}
+    \label{medium}
+u^{\rm{st}}_{k} = {\rm{i}}\frac{4}{3}{2^{ - 3/2}}{{\rm{\pi }}^{ - 1/2}}c_s^{1/2}\tau _\ast^2{{\rm{e}}^{ -{{\rm{i}} {c_s}k{\tau _\ast}}}}{C^{\rm{sr}}_1}{k^{1/2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}",246,text,Source_27,2510.22218v1
+28,"While in small scales where $1 < \alpha{k^2}\tau^2/2 <  - {c_s}k{\tau}$, it becomes
+","While in small scales where , it becomes",40,text,Source_28,2510.22218v1
+29,"\begin{equation}
+   \label{small}
+   u^{\rm{st}}_{k}=\sqrt 2 {{\rm{\pi }}^{ - 1}}{\rm{i}}{{\rm{e}}^{-{\rm{i}} {c_s}k{\tau _\ast}}}{\rm{\Gamma }}\left({3/4} \right){\alpha ^{ - 5/4}}c_s^{1/2}{\left({ - {\tau _\ast}} \right)^{ - 1/2}}{C^{\rm{sr}}_1}{k^{ - 2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}","\begin{equation}
+   \label{small}
+   u^{\rm{st}}_{k}=\sqrt 2 {{\rm{\pi }}^{ - 1}}{\rm{i}}{{\rm{e}}^{-{\rm{i}} {c_s}k{\tau _\ast}}}{\rm{\Gamma }}\left({3/4} \right){\alpha ^{ - 5/4}}c_s^{1/2}{\left({ - {\tau _\ast}} \right)^{ - 1/2}}{C^{\rm{sr}}_1}{k^{ - 2}}{\left({ - \tau } \right)^{ - 1}}~.
+\end{equation}",307,text,Source_29,2510.22218v1
+30,"The power spectrum of the curvature perturbation is defined as follows:
+",The power spectrum of the curvature perturbation is defined as follows:,71,text,Source_30,2510.22218v1
+31,"\begin{equation}{P_\zeta}(k) \equiv \frac{k^3}{2\pi^2}\left|\frac{u_k}{z}\right|^2~.
+\end{equation}","\begin{equation}{P_\zeta}(k) \equiv \frac{k^3}{2\pi^2}\left|\frac{u_k}{z}\right|^2~.
+\end{equation}",99,text,Source_31,2510.22218v1
+32,"Thus from Eqs. \eqref{large}, \eqref{medium} and \eqref{small} one finds that
+","Thus from Eqs. , and one finds that",35,text,Source_32,2510.22218v1
+33,"\begin{equation}
+\label{spectrum}
+    {P_{\zeta}}(k) \propto \left\{{\begin{array}{*{20}{r}}
+k^0 & \text{for large scale~,}\\
+k^4 & \text{for medium scale~,}\\
+k^{-1} & \text{for small scale~.} 
+\end{array}} \right.
+\end{equation}","\begin{equation}
+\label{spectrum}
+    {P_{\zeta}}(k) \propto \left\{{\begin{array}{*{20}{r}}
+k^0 & \text{for large scale~,}\\
+k^4 & \text{for medium scale~,}\\
+k^{-1} & \text{for small scale~.} 
+\end{array}} \right.
+\end{equation}",230,text,Source_33,2510.22218v1
+34,"We numerically calculate the equation \eqref{zetabar} and plot the power spectrum in Fig. \ref{fig:curvpert}. The figures show nice consistency with the analytical result \eqref{spectrum}, however, there also exists some oscillations on the small scales. This is due to the fact that for very large $k$ modes which does not exit the horizon before the pivot scale $\tau_\ast$, the subhorizon effect will become robust. However, 
+","We numerically calculate the equation and plot the power spectrum in Fig. . The figures show nice consistency with the analytical result , however, there also exists some oscillations on the small scales. This is due to the fact that for very large modes which does not exit the horizon before the pivot scale , the subhorizon effect will become robust. However,",362,text,Source_34,2510.22218v1
+35,"it can be smoothed to mimic the power-law form. Since in this work we're mainly focusing on the medium and small scales which are responsible for SIGW and PBH generation, it is useful to parametrize the power spectrum within these scales into a broken-power-law (BPL) form:
+","it can be smoothed to mimic the power-law form. Since in this work we're mainly focusing on the medium and small scales which are responsible for SIGW and PBH generation, it is useful to parametrize the power spectrum within these scales into a broken-power-law (BPL) form:",273,text,Source_35,2510.22218v1
+36,"\begin{equation}
+\label{BPL}
+    {P_{\zeta}}\left( k \right) = \left\{{\begin{array}{*{20}{c}}{A{{\left({\frac{k}{{{k_ * }}}} \right)}^4}}&{ k < {k_ * }}~,\\
+{A{{\left({\frac{k}{{{k_ * }}}} \right)}^{ - 1}}}&{k > {k_ * }}~,
+\end{array}} \right.
+\end{equation}","\begin{equation}
+\label{BPL}
+    {P_{\zeta}}\left( k \right) = \left\{{\begin{array}{*{20}{c}}{A{{\left({\frac{k}{{{k_ * }}}} \right)}^4}}&{ k < {k_ * }}~,\\
+{A{{\left({\frac{k}{{{k_ * }}}} \right)}^{ - 1}}}&{k > {k_ * }}~,
+\end{array}} \right.
+\end{equation}",259,text,Source_36,2510.22218v1
+37,"where the amplitude $A$ is related to the model parameters $c_s$ and $\alpha$ in Eq. \eqref{zetabar}, while $k_\ast$ is pivot scale between medium and small scales.
+","where the amplitude is related to the model parameters and in Eq. , while is pivot scale between medium and small scales.",121,text,Source_37,2510.22218v1
+38,"\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/CurvSpec.pdf}
+    \caption{The power spectrum of curvature perturbation obtained from Eq. \eqref{zetabar} with respect to $k$ (in logarithm). Three straight lines mimicking the $P_\zeta-k$ relations are also shown for comparison: red line is for $P_\zeta\sim k^0$, green is for $P_\zeta\sim k^4$, while blue is for $P_\zeta\sim k^{-1}$. The dashed line denotes the pivot scale $k_\ast$ corresponding to the peak of the power spectrum. With the power spectrum in large scales around $2.0\times10^{-9}$, ${\lg|\tau _*|}$ and $\lg \alpha$ are set to be $-4.95$ and $-3.86$ to make the BPL parameters $\lg(k_*/\mathrm{Mpc^{-1}})$ and $\lg A$ to be $7.0$ and $-1.4$. }
+    \label{fig:curvpert}
+\end{figure}","\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/CurvSpec.pdf}
+    \caption{The power spectrum of curvature perturbation obtained from Eq. \eqref{zetabar} with respect to $k$ (in logarithm). Three straight lines mimicking the $P_\zeta-k$ relations are also shown for comparison: red line is for $P_\zeta\sim k^0$, green is for $P_\zeta\sim k^4$, while blue is for $P_\zeta\sim k^{-1}$. The dashed line denotes the pivot scale $k_\ast$ corresponding to the peak of the power spectrum. With the power spectrum in large scales around $2.0\times10^{-9}$, ${\lg|\tau _*|}$ and $\lg \alpha$ are set to be $-4.95$ and $-3.86$ to make the BPL parameters $\lg(k_*/\mathrm{Mpc^{-1}})$ and $\lg A$ to be $7.0$ and $-1.4$. }
+    \label{fig:curvpert}
+\end{figure}",778,text,Source_38,2510.22218v1
+39,"It is well-known that the scalar and tensor perturbations decouple with each other in linear level. However, when going into non-linear level, the coupling will appear, and the scalar perturbation can be transferred into the tensor one via the scalar-tensor interaction, while the latter consists of the gravitational waves. Although it has been suppressed during most part of the inflation era, at the end of inflation where the scalar perturbation gets enlarged, such an interaction becomes important, and the induced tensor perturbation can act as a signal to be observed by the current gravitational wave observations. Here we consider the induced gravitational waves generated by the scalar perturbations given in \eqref{spectrum}.
+","It is well-known that the scalar and tensor perturbations decouple with each other in linear level. However, when going into non-linear level, the coupling will appear, and the scalar perturbation can be transferred into the tensor one via the scalar-tensor interaction, while the latter consists of the gravitational waves. Although it has been suppressed during most part of the inflation era, at the end of inflation where the scalar perturbation gets enlarged, such an interaction becomes important, and the induced tensor perturbation can act as a signal to be observed by the current gravitational wave observations. Here we consider the induced gravitational waves generated by the scalar perturbations given in .",720,text,Source_39,2510.22218v1
+40,"The energy density fraction spectrum of the present-day SIGW is calculated in
+\cite{PhysRevD.75.123518,Kohri:2018awv} (see also \cite{Domenech:2021ztg} for a review). For scalar-induced case, the equation of motion for tensor perturbations can be written as:
+","The energy density fraction spectrum of the present-day SIGW is calculated in (see also for a review). For scalar-induced case, the equation of motion for tensor perturbations can be written as:",194,text,Source_40,2510.22218v1
+41,"\begin{equation}
+\label{eomhk}
+    h''_{\bf k}(\tau)+2aHh'_{\bf k}(\tau)+k^2h_{\bf k}(\tau)=4S_{\bf k}(\tau)~.
+\end{equation}","\begin{equation}
+\label{eomhk}
+    h''_{\bf k}(\tau)+2aHh'_{\bf k}(\tau)+k^2h_{\bf k}(\tau)=4S_{\bf k}(\tau)~.
+\end{equation}",125,text,Source_41,2510.22218v1
+42,"Here $S_{\bf k}(\tau)$ is the source term from scalar perturbation:
+",Here is the source term from scalar perturbation:,49,text,Source_42,2510.22218v1
+43,"\begin{equation}
+\label{source}
+    S_{\bf k}(\tau)=\int \frac{{{d^3}}q}{(2\pi)^{3/2}}e_{ij}({\bf k})q_iq_j\left[2\Phi_{\bf q}\Phi_{\bf k-q}+\frac{4}{3(1+w)}\left(\Phi_{\bf q}+\frac{\Phi_{\bf q}^\prime}{\cal H}\right)\left(\Phi_{\bf k-q}+\frac{\Phi_{\bf k-q}^\prime}{\cal H}\right) \right]~,
+\end{equation}","\begin{equation}
+\label{source}
+    S_{\bf k}(\tau)=\int \frac{{{d^3}}q}{(2\pi)^{3/2}}e_{ij}({\bf k})q_iq_j\left[2\Phi_{\bf q}\Phi_{\bf k-q}+\frac{4}{3(1+w)}\left(\Phi_{\bf q}+\frac{\Phi_{\bf q}^\prime}{\cal H}\right)\left(\Phi_{\bf k-q}+\frac{\Phi_{\bf k-q}^\prime}{\cal H}\right) \right]~,
+\end{equation}",306,text,Source_43,2510.22218v1
+44,"where $\Phi_{\bf k}$ is the gravitational potential, and $e_{ij}({\bf k})$ is the polarization tensor. The solution of Eq. \eqref{eomhk} is
+","where is the gravitational potential, and is the polarization tensor. The solution of Eq. is",92,text,Source_44,2510.22218v1
+45,"\begin{equation}
+\label{solhk}
+    h_{\bf k}(\tau)=\frac{4}{a}\int^\tau{{d}}\tau' G_{\bf k}(\tau,\tau')a(\tau')S_{\bf k}(\tau')~,
+\end{equation}","\begin{equation}
+\label{solhk}
+    h_{\bf k}(\tau)=\frac{4}{a}\int^\tau{{d}}\tau' G_{\bf k}(\tau,\tau')a(\tau')S_{\bf k}(\tau')~,
+\end{equation}",144,text,Source_45,2510.22218v1
+46,"where $G_{\bf k}(\tau,\tau')$ is the Green function. 
+",where is the Green function.,28,text,Source_46,2510.22218v1
+47,"After inflation ends, we assume that the universe entered into a radiation-dominated era, where everything has decayed into relativistic particles. In this era the gravitational potential satisfies the equation
+","After inflation ends, we assume that the universe entered into a radiation-dominated era, where everything has decayed into relativistic particles. In this era the gravitational potential satisfies the equation",210,text,Source_47,2510.22218v1
+48,"\begin{equation}
+    \Phi''_{\bf k}(\tau)+\frac{6(1+w)}{(1+3w)\tau}\Phi'_{\bf k}+wk^2\Phi_{\bf k}(\tau)=0~,
+\end{equation}","\begin{equation}
+    \Phi''_{\bf k}(\tau)+\frac{6(1+w)}{(1+3w)\tau}\Phi'_{\bf k}+wk^2\Phi_{\bf k}(\tau)=0~,
+\end{equation}",122,text,Source_48,2510.22218v1
+49,"where in the radiation-dominated era, one has $w=1/3$. This gives rise to the solution: 
+\begin{eqnarray}
+    \Phi_{\bf k}(\tau)&=&\Phi_0({\bf k}){\cal T}(k,\tau)~,\\
+    \label{transfunc}
+    {\cal T}(k,\tau)&=&3\frac{{\sin (k\tau /\sqrt 3) - (k\tau /\sqrt 3)\cos (k\tau /\sqrt 3)}}{(k\tau /\sqrt 3)^3}~.
+\end{eqnarray}
+The coefficient $\Phi_0({\bf k})$ is the initial condition of the solution for this era, which will be connected to the perturbations during inflation. As the Newtonian potential, it relates to the curvature perturbation $\zeta$ as 
+","where in the radiation-dominated era, one has . This gives rise to the solution: _{ k}()&=&_0({ k}){ T}(k,)~, { T}(k,)&=&3}{(k / 3)^3}~. The coefficient is the initial condition of the solution for this era, which will be connected to the perturbations during inflation. As the Newtonian potential, it relates to the curvature perturbation as",342,text,Source_49,2510.22218v1
+50,"\begin{equation}
+\label{phizeta}
+    \Phi_0({\bf k})\simeq\frac{\epsilon}{1+\epsilon}\zeta_{\bf k}=\frac{3+3w}{5+3w}\zeta_{\bf k}~.
+\end{equation}","\begin{equation}
+\label{phizeta}
+    \Phi_0({\bf k})\simeq\frac{\epsilon}{1+\epsilon}\zeta_{\bf k}=\frac{3+3w}{5+3w}\zeta_{\bf k}~.
+\end{equation}",146,text,Source_50,2510.22218v1
+51,"The tensor spectrum is defined as:
+",The tensor spectrum is defined as:,34,text,Source_51,2510.22218v1
+52,"\begin{equation}
+\label{tensorspectrum}
+    \langle h_{\bf k}(\tau)h_{{\bf k}'}(\tau)\rangle=\delta^3({\bf k}+{\bf k}')\frac{2\pi^2}{k^3}P_h(k,\tau)~.
+\end{equation}","\begin{equation}
+\label{tensorspectrum}
+    \langle h_{\bf k}(\tau)h_{{\bf k}'}(\tau)\rangle=\delta^3({\bf k}+{\bf k}')\frac{2\pi^2}{k^3}P_h(k,\tau)~.
+\end{equation}",165,text,Source_52,2510.22218v1
+53,"Meanwhile, the energy density of gravitational waves is defined as:
+","Meanwhile, the energy density of gravitational waves is defined as:",67,text,Source_53,2510.22218v1
+54,"\begin{equation}
+    \rho_{\rm GW}(k,\tau)\equiv\frac{d\rho_{\rm GW}}{d\ln k}=\frac{M_p^2}{16a^2}\frac{d}{d\ln k}\langle h_{ij,{\bf k}}h_{ij,{\bf k}}\rangle~,
+\end{equation}","\begin{equation}
+    \rho_{\rm GW}(k,\tau)\equiv\frac{d\rho_{\rm GW}}{d\ln k}=\frac{M_p^2}{16a^2}\frac{d}{d\ln k}\langle h_{ij,{\bf k}}h_{ij,{\bf k}}\rangle~,
+\end{equation}",173,text,Source_54,2510.22218v1
+55,"note that here $h_{ij}$ is Fourier conjugate of the $h_{\bf k}(\tau)$ in Eq. \eqref{tensorspectrum}, and $h_{ij,{\bf k}}\equiv\partial_{\bf k}h_{ij}$. Therefore, the energy density fraction of the gravitational waves is written as:
+","note that here is Fourier conjugate of the in Eq. , and . Therefore, the energy density fraction of the gravitational waves is written as:",138,text,Source_55,2510.22218v1
+56,"\begin{equation}
+    \Omega_{\rm{GW}}(k,\tau)\equiv\frac{\rho_{\rm{GW}}(k,\tau)}{\rho_{\rm{tot}}(\tau)}=\frac{1}{24}\left(\frac{k}{a(\tau)H(\tau)}\right)^2P_h(k,\tau)~.
+\end{equation}","\begin{equation}
+    \Omega_{\rm{GW}}(k,\tau)\equiv\frac{\rho_{\rm{GW}}(k,\tau)}{\rho_{\rm{tot}}(\tau)}=\frac{1}{24}\left(\frac{k}{a(\tau)H(\tau)}\right)^2P_h(k,\tau)~.
+\end{equation}",183,text,Source_56,2510.22218v1
+57,"At the horizon-reentrance time $\tau_k$ when $k=a(\tau_k)H(\tau_k)$, one has $\Omega^{\langle k\rangle}_{\rm{GW}}(k)=P^{\langle k\rangle}_h(k)/24$, where the subscript $\langle k\rangle$ denotes the values at reentrance time point $\tau_k$. On the other hand, for gravitational waves generated during radiation-dominated era, $\rho_{\rm{GW}}(k,\tau)=\Omega_{\rm{GW}}(k,\tau)\rho_{\rm{tot}}(\tau)$ evolves as $a^{-4}$ \cite{Kohri:2018awv, Domenech:2020xin}. Thus one has:
+","At the horizon-reentrance time when , one has , where the subscript denotes the values at reentrance time point . On the other hand, for gravitational waves generated during radiation-dominated era, evolves as . Thus one has:",225,text,Source_57,2510.22218v1
+58,"\begin{equation}
+    \frac{\Omega^{\langle 0\rangle}_{\rm{GW}}(k)}{\Omega^{\langle k\rangle}_{\rm{GW}}(k)}=a^4(\tau_k)\left(\frac{\rho^{\langle k\rangle}_{\rm{tot}}}{\rho^{\langle 0\rangle}_{\rm{tot}}}\right)=\left(\frac{g^{\langle k\rangle}_\ast}{g^{\langle 0\rangle}_\ast}\right)\left(\frac{g^{\langle k\rangle}_{\ast S}}{g^{\langle 0\rangle}_{\ast S}}\right)^{-\frac{4}{3}}\Omega^{\langle 0\rangle}_r~,
+\end{equation}","\begin{equation}
+    \frac{\Omega^{\langle 0\rangle}_{\rm{GW}}(k)}{\Omega^{\langle k\rangle}_{\rm{GW}}(k)}=a^4(\tau_k)\left(\frac{\rho^{\langle k\rangle}_{\rm{tot}}}{\rho^{\langle 0\rangle}_{\rm{tot}}}\right)=\left(\frac{g^{\langle k\rangle}_\ast}{g^{\langle 0\rangle}_\ast}\right)\left(\frac{g^{\langle k\rangle}_{\ast S}}{g^{\langle 0\rangle}_{\ast S}}\right)^{-\frac{4}{3}}\Omega^{\langle 0\rangle}_r~,
+\end{equation}",420,text,Source_58,2510.22218v1
+59,"where the subscript $\langle 0\rangle$ denotes the values at the current time, and $\Omega^{\langle 0\rangle}_{r}\equiv\rho^{\langle 0\rangle}_r/\rho^{\langle 0\rangle}_{\rm{tot}}\simeq 4.3\times10^{-5}h^{-2}$. Here we have made use of the fact that in radiation-dominated era $\rho^{\langle k\rangle}_{\rm{tot}}=\rho^{\langle k\rangle}_{r}$, $\rho_{r}(\tau)=(\pi^2/30)g_\ast T^4$ and the entropy $s\sim g_{\ast S}T^3\sim a^{-3}$ (adiabatic condition). Then 
+the current energy density fraction, which is to be compared to observations, is
+","where the subscript denotes the values at the current time, and . Here we have made use of the fact that in radiation-dominated era , and the entropy (adiabatic condition). Then the current energy density fraction, which is to be compared to observations, is",258,text,Source_59,2510.22218v1
+60,"\begin{equation}
+    \Omega^{\langle 0\rangle}_{\rm{GW}}(k)= \frac{\Omega^{\langle 0\rangle}_r}{{24}}\left(\frac{g^{\langle k\rangle}_\ast}{g^{\langle 0\rangle}_\ast}\right)\left(\frac{g^{\langle k\rangle}_{\ast S}}{g^{\langle 0\rangle}_{\ast S}}\right)^{-\frac{4}{3}}P^{\langle k\rangle}_h(k)~.
+\end{equation}","\begin{equation}
+    \Omega^{\langle 0\rangle}_{\rm{GW}}(k)= \frac{\Omega^{\langle 0\rangle}_r}{{24}}\left(\frac{g^{\langle k\rangle}_\ast}{g^{\langle 0\rangle}_\ast}\right)\left(\frac{g^{\langle k\rangle}_{\ast S}}{g^{\langle 0\rangle}_{\ast S}}\right)^{-\frac{4}{3}}P^{\langle k\rangle}_h(k)~.
+\end{equation}",310,text,Source_60,2510.22218v1
+61,"Using Eqs. \eqref{solhk} and \eqref{phizeta} and after tedious calculation, one gets the spectrum of tensor perturbation at the horizon-reentrance as 
+","Using Eqs. and and after tedious calculation, one gets the spectrum of tensor perturbation at the horizon-reentrance as",119,text,Source_61,2510.22218v1
+62,"\begin{equation}
+    P^{\langle k\rangle}_h(k) = 4\int_1^\infty  {{d}}t\int_0^1 {{d}}s{{\left[{\frac{{\left({{t^2} - 1} \right)\left({1 - {s^2}} \right)}}{{{t^2} - {s^2}}}} \right]}^2}{I^2}\left({t,s} \right){P_\zeta }\left({k\frac{{t - s}}{2}} \right){P_\zeta }\left({k\frac{{t + s}}{2}} \right)~,
+\end{equation}","\begin{equation}
+    P^{\langle k\rangle}_h(k) = 4\int_1^\infty  {{d}}t\int_0^1 {{d}}s{{\left[{\frac{{\left({{t^2} - 1} \right)\left({1 - {s^2}} \right)}}{{{t^2} - {s^2}}}} \right]}^2}{I^2}\left({t,s} \right){P_\zeta }\left({k\frac{{t - s}}{2}} \right){P_\zeta }\left({k\frac{{t + s}}{2}} \right)~,
+\end{equation}",313,text,Source_62,2510.22218v1
+63,"while the transfer function $I(t,s)$ is given by:
+",while the transfer function is given by:,40,text,Source_63,2510.22218v1
+64,"\begin{equation}{I^2}(t,s)  = 288\frac{(s^2 + t^2 - 6)^2}{(t^2 - s^2)^6}\bigg[ \frac{\pi^2}{4}(s^2 + t^2 - 6)^2\Theta(t - \sqrt{3}) + \left({t^2 - s^2 - \frac{1}{2}(s^2 + t^2 - 6)\ln \left| \frac{t^2 - 3}{3 - s^2} \right|} \right)^2 \bigg]~,
+        \label{I}
+\end{equation}","\begin{equation}{I^2}(t,s)  = 288\frac{(s^2 + t^2 - 6)^2}{(t^2 - s^2)^6}\bigg[ \frac{\pi^2}{4}(s^2 + t^2 - 6)^2\Theta(t - \sqrt{3}) + \left({t^2 - s^2 - \frac{1}{2}(s^2 + t^2 - 6)\ln \left| \frac{t^2 - 3}{3 - s^2} \right|} \right)^2 \bigg]~,
+        \label{I}
+\end{equation}",274,text,Source_64,2510.22218v1
+65,"where $t\equiv (|{\bf k}-{\bf q}|+q)/k$, $s\equiv(|{\bf k}-{\bf q}|-q)/k$. 
+","where , .",9,text,Source_65,2510.22218v1
+66,"Since the tensor spectrum contains complicated integrations, it is then difficult to make predictions analytically, so we refer to numerical solutions as well. In Fig. \ref{fig:SIGW} we plot the posterior distributions for the amplitude of curvature perturbation as well as the scales. In this plot, we use NANOGrav 15-yr data as well as the BPL parametrization as shown in Eq. \eqref{BPL}. The contour in Fig. \ref{fig:SIGW} is not too different from previous works with BPL curvature spectrum, which is because the result actually has weak dependence on power-law indices of curvature power spectrum, except for requiring a blue-tilt by the PTA data. Moreover, as is shown in e.g. \cite{Cai:2018dig}, the non-Gaussian property of the curvature perturbations will not alter the result too much, either. 
+","Since the tensor spectrum contains complicated integrations, it is then difficult to make predictions analytically, so we refer to numerical solutions as well. In Fig. we plot the posterior distributions for the amplitude of curvature perturbation as well as the scales. In this plot, we use NANOGrav 15-yr data as well as the BPL parametrization as shown in Eq. . The contour in Fig. is not too different from previous works with BPL curvature spectrum, which is because the result actually has weak dependence on power-law indices of curvature power spectrum, except for requiring a blue-tilt by the PTA data. Moreover, as is shown in e.g. , the non-Gaussian property of the curvature perturbations will not alter the result too much, either.",744,text,Source_66,2510.22218v1
+67,"\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/posterier.pdf}
+    \caption{Posterior of the parameters of the BPL model, where NANOGrav 15-yr data was used. The contours of the 2D posterior plot from dark to light corresponds to the 1$\sigma$, 2$\sigma$ and 3$\sigma$ confidence levels, respectively. Priors of the parameters $\lg (k_*/\mathrm{Mpc^{-1}})$ and $\lg A$ are $U\sim(5.8,12.8)$ and $U\sim(-3,2)$.}
+    \label{fig:SIGW}
+\end{figure}","\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/posterier.pdf}
+    \caption{Posterior of the parameters of the BPL model, where NANOGrav 15-yr data was used. The contours of the 2D posterior plot from dark to light corresponds to the 1$\sigma$, 2$\sigma$ and 3$\sigma$ confidence levels, respectively. Priors of the parameters $\lg (k_*/\mathrm{Mpc^{-1}})$ and $\lg A$ are $U\sim(5.8,12.8)$ and $U\sim(-3,2)$.}
+    \label{fig:SIGW}
+\end{figure}",473,text,Source_67,2510.22218v1
+68,"In this section we analyze the formation of PBHs and see whether the overproduction problem will be avoided in our model. To do this, we make use of the ``compaction function"" approach, which was introduced in \cite{Shibata:1999zs} has been widely discussed in \cite{Harada:2015yda, Yoo:2018kvb, Kawasaki:2019mbl, Biagetti:2021eep, Kitajima:2021fpq, Young:2022phe, Escriva:2022pnz, Ferrante:2022mui, Gow:2022jfb}.  In this approach, one defines the compaction function as:
+","In this section we analyze the formation of PBHs and see whether the overproduction problem will be avoided in our model. To do this, we make use of the ``compaction function"" approach, which was introduced in has been widely discussed in . In this approach, one defines the compaction function as:",298,text,Source_68,2510.22218v1
+69,"\begin{equation}{\cal{C}}(\boldsymbol{x},r)=2\frac{\delta M(\boldsymbol{x},r)}{R(r)}~,
+\end{equation}","\begin{equation}{\cal{C}}(\boldsymbol{x},r)=2\frac{\delta M(\boldsymbol{x},r)}{R(r)}~,
+\end{equation}",101,text,Source_69,2510.22218v1
+70,"which describes the mass excess within a sphere areal radius $R$ centred on spatial coordinate $\boldsymbol{x}$. The Misner-Sharp mass is defined as:
+",which describes the mass excess within a sphere areal radius centred on spatial coordinate . The Misner-Sharp mass is defined as:,129,text,Source_70,2510.22218v1
+71,"\begin{equation}
+    M=\int 4\pi R^2\rho{{d}}R=\int 4\pi R^2R_{,r}\rho{{d}}r~,
+\end{equation}","\begin{equation}
+    M=\int 4\pi R^2\rho{{d}}R=\int 4\pi R^2R_{,r}\rho{{d}}r~,
+\end{equation}",93,text,Source_71,2510.22218v1
+72,"\begin{equation}
+\label{density}
+    \delta\left({\bf{x}}\right)=\frac{2(1+w)}{5+3w}{\left({\frac{1}{aH}}\right)^2}{\rm{e}}^{2\zeta}\left(\zeta_{,r,r}-\frac{1}{2}\zeta_{,r}^2+\frac{2}{r}\zeta_{,r} \right)~.
+\end{equation}","\begin{equation}
+\label{density}
+    \delta\left({\bf{x}}\right)=\frac{2(1+w)}{5+3w}{\left({\frac{1}{aH}}\right)^2}{\rm{e}}^{2\zeta}\left(\zeta_{,r,r}-\frac{1}{2}\zeta_{,r}^2+\frac{2}{r}\zeta_{,r} \right)~.
+\end{equation}",221,text,Source_72,2510.22218v1
+73,"We assume that PBHs are generated in the radiation-dominated era, where $w=1/3$. Substituting Eq. \eqref{density} into Eq. \eqref{deltaM}, it is straightforward to get: 
+\begin{eqnarray}
+    \label{comp2}
+{{\cal C}}(r)&=&\frac{4}{3}r\zeta_{,r}\left(1-\frac{1}{2}r\zeta_{,r} \right)={\cal C}_l(r)\left(1-\frac{3}{8}{\cal C}_l^2(r) \right)~,
+\end{eqnarray}
+where we define the linear part of ${\cal C}(r)$: 
+","We assume that PBHs are generated in the radiation-dominated era, where . Substituting Eq. into Eq. , it is straightforward to get: {{ C}}(r)&=&{3}r_{,r}(1-{2}r_{,r} )={ C}_l(r)(1-{8}{ C}_l^2(r) )~, where we define the linear part of :",235,text,Source_73,2510.22218v1
+74,"\begin{equation}
+    \label{comp3}
+{\cal C}_l(r)=\frac{4}{3}r\zeta_{,r}~.
+\end{equation}","\begin{equation}
+    \label{comp3}
+{\cal C}_l(r)=\frac{4}{3}r\zeta_{,r}~.
+\end{equation}",88,text,Source_74,2510.22218v1
+75,"For general non-Gaussian curvature perturbation $\zeta=\zeta(\zeta_G,r)$, the compaction function ${\cal C}(r)$ can be written as 2D function of $\zeta_G$ and $\zeta_{G,r}$, or equivalently $\zeta_G$ and ${\cal C}_G\equiv r\zeta_{G,r}$ \cite{Gow:2022jfb}. Then ${\cal C}_l(r)$ can be represented by ${\cal C}_G(r)$ as: 
+","For general non-Gaussian curvature perturbation , the compaction function can be written as 2D function of and , or equivalently and . Then can be represented by as:",165,text,Source_75,2510.22218v1
+76,"\begin{equation}
+    \label{comp4}
+    {\cal C}_l(r)=\frac{4}{3}r\zeta_{,r}=\frac{4}{3}r\frac{{{d}}\zeta}{{{d}}\zeta_G}\zeta_{G{,r}}=\frac{4}{3}\frac{d\zeta}{d\zeta_G}{\cal C}_G~.
+\end{equation}","\begin{equation}
+    \label{comp4}
+    {\cal C}_l(r)=\frac{4}{3}r\zeta_{,r}=\frac{4}{3}r\frac{{{d}}\zeta}{{{d}}\zeta_G}\zeta_{G{,r}}=\frac{4}{3}\frac{d\zeta}{d\zeta_G}{\cal C}_G~.
+\end{equation}",194,text,Source_76,2510.22218v1
+77,"Naively speaking, the non-Gaussian curvature perturbation takes the power-law form: 
+","Naively speaking, the non-Gaussian curvature perturbation takes the power-law form:",83,text,Source_77,2510.22218v1
+78,"\begin{equation}
+    \label{nonG}
+    \zeta(\zeta_G)=\zeta_G+(3/5)f_{\rm nl}\zeta_G^2~.
+\end{equation}","\begin{equation}
+    \label{nonG}
+    \zeta(\zeta_G)=\zeta_G+(3/5)f_{\rm nl}\zeta_G^2~.
+\end{equation}",102,text,Source_78,2510.22218v1
+79,"Thus, the 2D PDF of these two Gaussian variables is 
+","Thus, the 2D PDF of these two Gaussian variables is",51,text,Source_79,2510.22218v1
+80,"\begin{equation}
+    \label{PDF}
+P(\zeta_G, {\cal C}_G) = \frac{1}{2\pi\sqrt{|\bf\Sigma|}}{\rm{Exp}}\left[{-\frac{1}{2}{{\bf{X}}^{\rm{T}}}{{\bf{\Sigma }}^{ - 1}}{\bf{X}}} \right]~,
+\end{equation}","\begin{equation}
+    \label{PDF}
+P(\zeta_G, {\cal C}_G) = \frac{1}{2\pi\sqrt{|\bf\Sigma|}}{\rm{Exp}}\left[{-\frac{1}{2}{{\bf{X}}^{\rm{T}}}{{\bf{\Sigma }}^{ - 1}}{\bf{X}}} \right]~,
+\end{equation}",195,text,Source_80,2510.22218v1
+81,"with variables matrix and covariance matrix 
+",with variables matrix and covariance matrix,43,text,Source_81,2510.22218v1
+82,"\begin{equation}
+    \label{RV}
+{\bf{X}}\equiv\left[ \begin{array}{l}
+\zeta_G\\
+{\cal C}_G
+\end{array} \right],~~~{\bf{\Sigma}}\equiv\left[{\begin{array}{*{20}{c}}{\sigma _{\zeta}^2}&{\sigma _{\zeta{\cal C} }^2}\\
+{\sigma _{\zeta{\cal C} }^2}&{\sigma_{\cal C} ^2}
+\end{array}} \right]~,
+\end{equation}","\begin{equation}
+    \label{RV}
+{\bf{X}}\equiv\left[ \begin{array}{l}
+\zeta_G\\
+{\cal C}_G
+\end{array} \right],~~~{\bf{\Sigma}}\equiv\left[{\begin{array}{*{20}{c}}{\sigma _{\zeta}^2}&{\sigma _{\zeta{\cal C} }^2}\\
+{\sigma _{\zeta{\cal C} }^2}&{\sigma_{\cal C} ^2}
+\end{array}} \right]~,
+\end{equation}",301,text,Source_82,2510.22218v1
+83,"and the components of the covariance matrix 
+\begin{eqnarray}
+    \label{Covzetazeta}
+\sigma _\zeta ^2 (r_H)&\equiv&\langle\zeta_G^2({\bf x},r_H)\rangle= \int_{}^{}  W^2\left({k,r_H} \right){\cal T}^2(k,r_H)P_\zeta(k){ d}\ln k~,\\
+    \label{CovCzeta}
+\sigma _{\zeta{\cal C}}^2(r_H) &\equiv&\langle\zeta_G({\bf x},r_H){\cal C}({\bf x},r_H)\rangle= \frac{4}{3}r_H \int_{}^{}  W\left({k,r_H} \right)W_{,r_H}\left({k,r_H} \right){\cal T}^2(k,r_H)P_\zeta(k){ d}\ln k~,\\
+    \label{CovCC}
+\sigma _{{\cal C}}^2(r_H)&\equiv&\langle{\cal C}^2({\bf x},r_H)\rangle =\frac{16}{9}r_H^2\int_{}^{} W_{,r_H}^2\left({k,r_H} \right){\cal T}^2(k,r_H)P_\zeta(k){ d}\ln k~.
+\end{eqnarray}
+Here $W(k,r_H)=\sin(kr_H)/(kr_H)$ is the window function, and the transfer function ${\cal T}(k,r_H)$ is from Eq. \eqref{transfunc}, where we set $\tau=r_H$ for calculating the variance at the horizon crossing of $r_H$. See also \cite{Ando:2018qdb,Young:2019osy} for discussions on various choices of window functions. Generally speaking, for $r_H\rightarrow+\infty$, $\sigma _\zeta,\sigma _{\zeta{\cal C}},\sigma _{{\cal C}}\rightarrow0$. For $r_H\rightarrow0$, $\sigma _{\zeta{\cal C}},\sigma _{{\cal C}}\rightarrow0$ and $\sigma _\zeta={\cal O}(A)$. For $r_H={\cal O}(k^{-1})$,  $\sigma _\zeta,\sigma _{\zeta{\cal C}},\sigma _{{\cal C}}\rightarrow{\cal O}(A)$. Contours of 2D PDFs of $(\zeta_G, {\cal C}_G)$ under different $r_H$ are shown in Fig. \ref{fig:IntRegionoffPBH}. 
+","and the components of the covariance matrix _ ^2 (r_H)&&_G^2({ x},r_H)= _{}^{} W^2({k,r_H} ){ T}^2(k,r_H)P_(k){ d} k~, _{}^2(r_H) &&_G({ x},r_H){ C}({ x},r_H)= {3}r_H _{}^{} W({k,r_H} )W_{,r_H}({k,r_H} ){ T}^2(k,r_H)P_(k){ d} k~, _{{ C}}^2(r_H)&&^2({ x},r_H) ={9}r_H^2_{}^{} W_{,r_H}^2({k,r_H} ){ T}^2(k,r_H)P_(k){ d} k~. Here is the window function, and the transfer function is from Eq. , where we set for calculating the variance at the horizon crossing of . See also for discussions on various choices of window functions. Generally speaking, for , . For , and . For , . Contours of 2D PDFs of under different are shown in Fig. .",633,text,Source_83,2510.22218v1
+84,"A PBH will be formed once the compaction ${\cal C}$ is over the threshold ${\cal C}_{\rm th}$. Moreover, we restrict ourselves into the Type I perturbation where ${\cal C}_l<4/3$. Then the mass fraction of the PBH is given by: 
+","A PBH will be formed once the compaction is over the threshold . Moreover, we restrict ourselves into the Type I perturbation where . Then the mass fraction of the PBH is given by:",180,text,Source_84,2510.22218v1
+85,"\begin{align}
+    \label{MassFrac}
+\beta(r_H)  = \int_{\cal D} {\cal K}({\cal C} - {\cal C}_{\rm th})^{\gamma_M} P(\zeta_G, {\cal C}_G){d}\zeta_G{ d}{\cal C}_G~,
+\end{align}","\begin{align}
+    \label{MassFrac}
+\beta(r_H)  = \int_{\cal D} {\cal K}({\cal C} - {\cal C}_{\rm th})^{\gamma_M} P(\zeta_G, {\cal C}_G){d}\zeta_G{ d}{\cal C}_G~,
+\end{align}",173,text,Source_85,2510.22218v1
+86,"with integral interval $ {\cal D} = \left\{{\cal C} > {\cal C}_{\rm th}, {\cal C}_l < 4/3  \right\}$. Eq. \eqref{MassFrac} comes into being due to the empirical formula of the PBH mass \cite{Choptuik:1992jv, Evans:1994pj, Niemeyer:1997mt}:
+",with integral interval . Eq. comes into being due to the empirical formula of the PBH mass :,92,text,Source_86,2510.22218v1
+87,"\begin{equation}
+    \label{MassRelation}
+M_{\rm PBH}={\cal K}({\cal C}-{\cal C}_{\rm th})^{\gamma_M} M_H~,
+\end{equation}","\begin{equation}
+    \label{MassRelation}
+M_{\rm PBH}={\cal K}({\cal C}-{\cal C}_{\rm th})^{\gamma_M} M_H~,
+\end{equation}",122,text,Source_87,2510.22218v1
+88,"where parameters ${\cal K}$ and ${\gamma_M}$ depend on the equation of state $w$. For the radiation-dominated era where $w=1/3$, we set ${\cal K}=4$ and ${\gamma_M}=0.36$. 
+The total abundance of PBHs is then given by the integral on horizon mass $M_H$ (see \cite{Kitajima:2021fpq, Ferrante:2022mui}):
+","where parameters and depend on the equation of state . For the radiation-dominated era where , we set and . The total abundance of PBHs is then given by the integral on horizon mass (see ):",189,text,Source_88,2510.22218v1
+89,"\begin{equation}
+        \label{Abund}
+        {f_{{\rm{PBH}}}} \simeq\frac{1}{\Omega_{\rm{DM}}}\int_{{M_{{H}}} = 0}^{ + \infty } {{{d \ln}}{M_{{H}}}{{\left({\frac{{{M_{{H}}}}}{{{2.8\times10^{17}M_\odot }}}} \right)}^{ - 1/2}}\beta}~,
+\end{equation}","\begin{equation}
+        \label{Abund}
+        {f_{{\rm{PBH}}}} \simeq\frac{1}{\Omega_{\rm{DM}}}\int_{{M_{{H}}} = 0}^{ + \infty } {{{d \ln}}{M_{{H}}}{{\left({\frac{{{M_{{H}}}}}{{{2.8\times10^{17}M_\odot }}}} \right)}^{ - 1/2}}\beta}~,
+\end{equation}",249,text,Source_89,2510.22218v1
+90,"while the horizon scale $r_H$ and its mass $M_H$ take the relation: 
+",while the horizon scale and its mass take the relation:,55,text,Source_90,2510.22218v1
+91,"\begin{equation}
+    \label{RadiusandMass}
+    {M_{{H}}} \simeq 17{M_ \odot }{\left({\frac{{{g_ * }}}{{10.75}}} \right)^{ - 1/6}}{\left( \frac{r_H}{10^{-6}{\rm Mpc}} \right)^2}~.
+\end{equation}","\begin{equation}
+    \label{RadiusandMass}
+    {M_{{H}}} \simeq 17{M_ \odot }{\left({\frac{{{g_ * }}}{{10.75}}} \right)^{ - 1/6}}{\left( \frac{r_H}{10^{-6}{\rm Mpc}} \right)^2}~.
+\end{equation}",193,text,Source_91,2510.22218v1
+92,"Although it hardly affects the SIGWs, the non-Gaussianity of the primordial power spectrum will considerably affect the $\beta$ as well as $f_{\mathrm{ PBH}}$ via the compaction function ${\cal C}$ and the domain ${\cal D}$. From Eqs. \eqref{MassFrac} and \eqref{Abund} one can see that, $\beta$ and $f_{\mathrm{PBH}}$ will contain an approximately power-law-like term of $f_{\mathrm{nl}}$, mainly hidden in the compaction function ${\cal C}$. In Fig. \ref{fig:IntRegionoffPBH} we plot the integration region and the PDF as a part of the integrand together, mainly to show the influence of $f_\mathrm{nl}$ to $f_{\mathrm{PBH}}$. The region between each pair of solid and dashed lines of the same color is the overthreshold region, and where this region overlaps with the PDF, the PBHs are generated.  One can see that both too high or too low $f_\mathrm{nl}$ can push the integration region inward, reach a higher probability distribution and make more PBHs formation. We find $f_\mathrm{nl}\simeq -1$ as a representation value to avoid PBH formation as possible. 
+","Although it hardly affects the SIGWs, the non-Gaussianity of the primordial power spectrum will considerably affect the as well as via the compaction function and the domain . From Eqs. and one can see that, and will contain an approximately power-law-like term of , mainly hidden in the compaction function . In Fig. we plot the integration region and the PDF as a part of the integrand together, mainly to show the influence of to . The region between each pair of solid and dashed lines of the same color is the overthreshold region, and where this region overlaps with the PDF, the PBHs are generated. One can see that both too high or too low can push the integration region inward, reach a higher probability distribution and make more PBHs formation. We find as a representation value to avoid PBH formation as possible.",827,text,Source_92,2510.22218v1
+93,"\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/ProbInteg.pdf}
+    \caption{This figure shows the contour lines of PDF of $(\zeta_G, {\cal C}_G)$ with its integral regions under different $r_H$ and $f_\mathrm{nl}$, where the model parameter $\lg A$ is set to ${-1.4}$. Contours from inside to outside represent $P(\zeta_G, {\cal C}_G)$ from $0$ to $-40$. Regions between the solid and the dashed lines with the same color represent the integral regions under the corresponding value $f_\mathrm{nl}$. }
+    \label{fig:IntRegionoffPBH}
+\end{figure}","\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/ProbInteg.pdf}
+    \caption{This figure shows the contour lines of PDF of $(\zeta_G, {\cal C}_G)$ with its integral regions under different $r_H$ and $f_\mathrm{nl}$, where the model parameter $\lg A$ is set to ${-1.4}$. Contours from inside to outside represent $P(\zeta_G, {\cal C}_G)$ from $0$ to $-40$. Regions between the solid and the dashed lines with the same color represent the integral regions under the corresponding value $f_\mathrm{nl}$. }
+    \label{fig:IntRegionoffPBH}
+\end{figure}",575,text,Source_93,2510.22218v1
+94,"In Fig. \ref{fig:fPBH} we combine the posterior of curvature parameters from Fig. \ref{fig:SIGW}  and the $f_{\rm PBH}=1$ line for various values of $f_\mathrm{nl}$ together. This figure shows that for positive $f_{\rm nl}$, the $f_{\rm PBH}=1$ line (blue) is below $2\sigma$ level region, indicating an overproduction problem. However, for the Gaussian case ($f_{\rm nl}=0$), the $f_{\rm PBH}=1$ line (green) is {\it marginally} included into the $2\sigma$ region allowed by the PTA data. Moreover, for the non-Gaussian case with negative $f_{\rm nl}$, the $f_{\rm PBH}$ lines (gold, orange and red) are well within the $2\sigma$ contour, even reaching the edge of $1\sigma$ region. These results hints that both modified dispersion relation and negative non-Gaussianity are helpful in resolving the overproduction problem. This is in agreement with previous results presented in literatures such as \cite{Franciolini:2023pbf, Wang:2023ost, Liu:2023ymk, DeLuca:2023tun, Firouzjahi:2023xke, Chang:2023aba, Pi:2024lsu, Inui:2024fgk,Choudhury:2023fwk,Choudhury:2023fjs}. 
+","In Fig. we combine the posterior of curvature parameters from Fig. and the line for various values of together. This figure shows that for positive , the line (blue) is below level region, indicating an overproduction problem. However, for the Gaussian case (), the line (green) is { marginally} included into the region allowed by the PTA data. Moreover, for the non-Gaussian case with negative , the lines (gold, orange and red) are well within the contour, even reaching the edge of region. These results hints that both modified dispersion relation and negative non-Gaussianity are helpful in resolving the overproduction problem. This is in agreement with previous results presented in literatures such as .",712,text,Source_94,2510.22218v1
+95,"\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/fpbh=1,posterier.pdf}
+   \caption{Posterior of Fig. \ref{fig:SIGW} v.s. $f_{\mathrm{PBH}}=1$ line for cases of different values of $f_{\rm nl}$. Region above each line represent $f_{\mathrm{PBH}}>1$. The contours of the 2D posterior plot from dark to light correspond to the 1$\sigma$, 2$\sigma$, and 3$\sigma$ confidence levels, respectively.} 
+    \label{fig:fPBH}
+\end{figure}","\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{plot/fpbh=1,posterier.pdf}
+   \caption{Posterior of Fig. \ref{fig:SIGW} v.s. $f_{\mathrm{PBH}}=1$ line for cases of different values of $f_{\rm nl}$. Region above each line represent $f_{\mathrm{PBH}}>1$. The contours of the 2D posterior plot from dark to light correspond to the 1$\sigma$, 2$\sigma$, and 3$\sigma$ confidence levels, respectively.} 
+    \label{fig:fPBH}
+\end{figure}",456,text,Source_95,2510.22218v1
+96,"One can also obtain the mass distribution of the PBHs, namely $f_{\rm PBH}(M_{\rm PBH})$, with $\int f_{\rm PBH}(M_{\rm PBH})d\ln M_{\rm PBH}=f_{\rm PBH}$. To do this, one need to perform variable substitution in the integrand from $\left({{M_{{H}}},{{{\cal C}}_{{G}}},{\zeta _{{G}}}} \right)$ to $\left({{M_{{\rm{PBH}}}},{M_{{H}}},{\zeta _{{G}}}} \right)$. Combining Eqs. \eqref{MassRelation}, \eqref{comp2}, \eqref{comp3} and \eqref{nonG}, The relation between ${\cal{C}}_{G}$ and $M_\mathrm{PBH}$ can be represented as: 
+","One can also obtain the mass distribution of the PBHs, namely , with . To do this, one need to perform variable substitution in the integrand from to . Combining Eqs. , , and , The relation between and can be represented as:",224,text,Source_96,2510.22218v1
+97,"\begin{align}
+    \label{CGofMPBH}
+    {{{\cal C}}_{{G}}} = \frac{4}{3}{\left({\frac{{{{d}}\zeta }}{{{{d}}{\zeta _{{G}}}}}} \right)^{ - 1}}\left[{1 - \sqrt{1 - \frac{3}{2 }\left[{{{{\cal C}}_{{\rm{th}}}} + {{\left({\frac{{{M_{{\rm{PBH}}}}}}{{{{\cal K}}{M_{H}}}}} \right)}^{1/{\gamma_M} }}} \right]} } \right]~.
+\end{align}","\begin{align}
+    \label{CGofMPBH}
+    {{{\cal C}}_{{G}}} = \frac{4}{3}{\left({\frac{{{{d}}\zeta }}{{{{d}}{\zeta _{{G}}}}}} \right)^{ - 1}}\left[{1 - \sqrt{1 - \frac{3}{2 }\left[{{{{\cal C}}_{{\rm{th}}}} + {{\left({\frac{{{M_{{\rm{PBH}}}}}}{{{{\cal K}}{M_{H}}}}} \right)}^{1/{\gamma_M} }}} \right]} } \right]~.
+\end{align}",322,text,Source_97,2510.22218v1
+98,"Thus the mass distribution of PBHs is calculated as:
+",Thus the mass distribution of PBHs is calculated as:,52,text,Source_98,2510.22218v1
+99,"\begin{align}
+    \label{fPBHofMPBH}
+{f_{{\mathrm{PBH}}}}\left({{M_\mathrm{PBH}}} \right) = &\frac{1}{{{\Omega _{{\mathrm{DM}}}}}}\int_{{M_{{H}}^{\mathrm{min}}}\left({{M_{{\mathrm{PBH}}}}} \right)}^{ + \infty } \bigg[{{d}\ln{M_{{H}}}{{\left({\frac{{{2.8\times10^{17}M_\odot}}}{{{M_{{H}}}}}} \right)}^{1/2}} \frac{M_\mathrm{PBH}^2}{{{M_{{H}}}}}} \nonumber\int_\mathbb{R}^{} {\frac{d{\cal C}_G}{dM_\mathrm{PBH}}{\left(\frac{d\zeta}{d\zeta_G}\right)}^{-1}{d}{\zeta _{{G}}}P\left({{{{\cal C}}_{{G}}},{\zeta _{{G}}}} \right)}\bigg]~,
+\end{align}","\begin{align}
+    \label{fPBHofMPBH}
+{f_{{\mathrm{PBH}}}}\left({{M_\mathrm{PBH}}} \right) = &\frac{1}{{{\Omega _{{\mathrm{DM}}}}}}\int_{{M_{{H}}^{\mathrm{min}}}\left({{M_{{\mathrm{PBH}}}}} \right)}^{ + \infty } \bigg[{{d}\ln{M_{{H}}}{{\left({\frac{{{2.8\times10^{17}M_\odot}}}{{{M_{{H}}}}}} \right)}^{1/2}} \frac{M_\mathrm{PBH}^2}{{{M_{{H}}}}}} \nonumber\int_\mathbb{R}^{} {\frac{d{\cal C}_G}{dM_\mathrm{PBH}}{\left(\frac{d\zeta}{d\zeta_G}\right)}^{-1}{d}{\zeta _{{G}}}P\left({{{{\cal C}}_{{G}}},{\zeta _{{G}}}} \right)}\bigg]~,
+\end{align}",540,text,Source_99,2510.22218v1
+100,"where the lower bound of $M_H$ satisfies ${M_{{H}}^{\mathrm{min}}}\left({{M_{{\mathrm{PBH}}}}} \right)=M_\mathrm{PBH}/({\cal K}{\cal C}_\mathrm{th}^{\gamma_M})$ . In Fig. \ref{fig:fPBHofMPBH} we draw the logarithmic plot of $f_{\rm PBH}$ with respect to $M_{\rm PBH}$ (normalized by $M_\odot$). One can see that under $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.4$, $f_{\mathrm{PBH}}(M_\mathrm{PBH})$ reaches its maximum for $M_\mathrm{PBH}\simeq 2.3\times 10^{-2}M_\odot$, which means that the PBHs generated in this model will basically have sub-solar mass. The maximum value of $f_{\rm PBH}(M_\mathrm{PBH})$ can reach the value of ${\cal O}(1)$. Although such a high fraction seems not be supported by constraints from observations of microlensing \cite{EROS-2:2006ryy, Oguri:2017ock, Zumalacarregui:2017qqd, Niikura:2019kqi}, our numerical calculations found that a slight change of $\lg A$ will also significantly affect this value. For example, under  $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.5$, $\lg f_{\mathrm{PBH}}(M_\mathrm{PBH})|_\mathrm{max}\simeq -2.63$. 
+","where the lower bound of satisfies . In Fig. we draw the logarithmic plot of with respect to (normalized by ). One can see that under and , reaches its maximum for , which means that the PBHs generated in this model will basically have sub-solar mass. The maximum value of can reach the value of . Although such a high fraction seems not be supported by constraints from observations of microlensing , our numerical calculations found that a slight change of will also significantly affect this value. For example, under and , .",528,text,Source_100,2510.22218v1
+101,"\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{plot/fPBHofMPBH.pdf}
+    \caption{Mass fractions $f_{\mathrm{PBH}}(M_{\rm PBH})$ in logarithmic form, where $M_{\rm PBH}$ is normalized by $M_\odot$. The parameters of the power spectrum are set as $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.4$ (blue curve), which makes $f_{\mathrm{PBH}}\simeq 1$. We also plot $f_{\mathrm{PBH}}(M_{\rm PBH})$ under  $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.5$ (orange curve) to show that slight decrease of $\lg A$ can obviously suppress the formation of PBHs. }
+    \label{fig:fPBHofMPBH}
+\end{figure}","\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{plot/fPBHofMPBH.pdf}
+    \caption{Mass fractions $f_{\mathrm{PBH}}(M_{\rm PBH})$ in logarithmic form, where $M_{\rm PBH}$ is normalized by $M_\odot$. The parameters of the power spectrum are set as $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.4$ (blue curve), which makes $f_{\mathrm{PBH}}\simeq 1$. We also plot $f_{\mathrm{PBH}}(M_{\rm PBH})$ under  $\lg (k_*/\mathrm{Mpc^{-1}})=7.0$ and $\lg A=-1.5$ (orange curve) to show that slight decrease of $\lg A$ can obviously suppress the formation of PBHs. }
+    \label{fig:fPBHofMPBH}
+\end{figure}",621,text,Source_101,2510.22218v1
+102,"In this paper, we discuss about the effect of modified dispersion relation in inflation models on the SIGW and PBH generation, especially the problem of ``overproduction"". 
+","In this paper, we discuss about the effect of modified dispersion relation in inflation models on the SIGW and PBH generation, especially the problem of ``overproduction"".",171,text,Source_102,2510.22218v1
+103,"We start with the very general Mukhanov-Sasaki perturbation equation for inflation models with modified dispersion relation, without denoting specific models. Moreover, $c_s^2$ is assumed to have a suppression at later time in order to make the $k^4$ correction term play an important role. After analytically solving the equation, we find that the power spectrum has a BPL form at the late time of inflation, where the maximum value and the pivot scale are critical for generating PBHs as well as SIGWs. The numerical results of the power spectrum are given in Fig. \ref{fig:curvpert}. 
+","We start with the very general Mukhanov-Sasaki perturbation equation for inflation models with modified dispersion relation, without denoting specific models. Moreover, is assumed to have a suppression at later time in order to make the correction term play an important role. After analytically solving the equation, we find that the power spectrum has a BPL form at the late time of inflation, where the maximum value and the pivot scale are critical for generating PBHs as well as SIGWs. The numerical results of the power spectrum are given in Fig. .",554,text,Source_103,2510.22218v1
+104,"Such scalar perturbation can induce secondary gravitational waves. With parametrized BPL power spectrum that mimics the numerical result, we obtained the parameter space constrained by the PTA data in Fig. \ref{fig:SIGW}. The result is not too much different from previous works, which indicate that it actually has weak dependence on the power-law indices of curvature spectrum \cite{Franciolini:2023pbf}.   
+","Such scalar perturbation can induce secondary gravitational waves. With parametrized BPL power spectrum that mimics the numerical result, we obtained the parameter space constrained by the PTA data in Fig. . The result is not too much different from previous works, which indicate that it actually has weak dependence on the power-law indices of curvature spectrum .",366,text,Source_104,2510.22218v1
+105,"To check out whether there is a overproduction problem, we calculate the abundance of PBHs, using the compaction function approach. One can see in Fig. \ref{fig:IntRegionoffPBH} that the overthreshold region depends on the non-Gaussian estimator $f_{\rm nl}$.  In our case, the region for $f_{\rm nl}$ near $-1$ is kept from being too close to the center of the PDF of $(\zeta_G, {\cal C}_G)$, thus is tend to avoid the PBHs being overproduced. A too high or too low $f_{\rm nl}$ will both push the overthreshold region inward to raise the productivity of the PBHs. Moreover, the area of PDF also changes with the horizon scale $r_H$. When combined with the SIGW results, we can see in Fig. \ref{fig:fPBH} that while $f_{\rm PBH}=1$ line with $f_{\rm nl}\simeq 0$ (no non-Gaussianity) is marginally included into $2\sigma$ region,  the one with $f_{\rm nl}\simeq -1$ is well within the $2\sigma$ level. This means both modified dispersion relation and negative non-Gaussianity are helpful in resolving the overproduction problem (but the later seems to be more significant). This is in agreement with previous results.
+","To check out whether there is a overproduction problem, we calculate the abundance of PBHs, using the compaction function approach. One can see in Fig. that the overthreshold region depends on the non-Gaussian estimator . In our case, the region for near is kept from being too close to the center of the PDF of , thus is tend to avoid the PBHs being overproduced. A too high or too low will both push the overthreshold region inward to raise the productivity of the PBHs. Moreover, the area of PDF also changes with the horizon scale . When combined with the SIGW results, we can see in Fig. that while line with (no non-Gaussianity) is marginally included into region, the one with is well within the level. This means both modified dispersion relation and negative non-Gaussianity are helpful in resolving the overproduction problem (but the later seems to be more significant). This is in agreement with previous results.",925,text,Source_105,2510.22218v1
+106,"Moreover, we also calculate the mass distribution of the PBHs. We find that in the current case, the mostly generated PBHs can reach a sub-solar mass of ${\cal O}(10^{-2})M_\odot$ (shown in Fig. \ref{fig:fPBHofMPBH}), with the maximal value of $f_{\mathrm{PBH}}(M_\mathrm{PBH})$ depending on parameters $A$. For overproduction avoidance $f_{\mathrm{PBH}}(M_\mathrm{PBH})$ could reach up to unity, but it can also be lower in order not to be conflicted with constraints from microlensing. Moreover, these constraints might also be released to contain higher $f_{\rm PBH}$ by PBH clustering, by which the number density of PBHs can get reduced (see e.g. \cite{Hawkins:2015uja, Calcino:2018mwh}).  
+","Moreover, we also calculate the mass distribution of the PBHs. We find that in the current case, the mostly generated PBHs can reach a sub-solar mass of (shown in Fig. ), with the maximal value of depending on parameters . For overproduction avoidance could reach up to unity, but it can also be lower in order not to be conflicted with constraints from microlensing. Moreover, these constraints might also be released to contain higher by PBH clustering, by which the number density of PBHs can get reduced (see e.g. ).",520,text,Source_106,2510.22218v1
+107,"The overproduction problem is an interesting topic about PBH and SIGW generations. It releases the signal that nowadays observations will impose more and more accurate and stringent constraints on these processes. Such constraints will bring challenges to our theoretical analysis and model constructions. However, since we're not very clear about these processes and there are large uncertainties in calculation methodologies and problems resolutions, they will also deepen our understanding and help us find more optimistic descriptions on them. Therefore, it is interesting to continue discussing about other possibilities on resolving the overproduction problem (as well as other problems), into which we will be devoting ourselves in the future works. 
+","The overproduction problem is an interesting topic about PBH and SIGW generations. It releases the signal that nowadays observations will impose more and more accurate and stringent constraints on these processes. Such constraints will bring challenges to our theoretical analysis and model constructions. However, since we're not very clear about these processes and there are large uncertainties in calculation methodologies and problems resolutions, they will also deepen our understanding and help us find more optimistic descriptions on them. Therefore, it is interesting to continue discussing about other possibilities on resolving the overproduction problem (as well as other problems), into which we will be devoting ourselves in the future works.",756,text,Source_107,2510.22218v1
+108,"\begin{acknowledgments}
+We thank Shi Pi, Xin-zhe Zhang and Hao-Hao Li for useful discussions. This work is supported by the National Science Foundation of China (Grant No. 12575053) and the National Key Research and Development Program of China (Grant No. 2021YFC2203100). 
+\end{acknowledgments}
+","We thank Shi Pi, Xin-zhe Zhang and Hao-Hao Li for useful discussions. This work is supported by the National Science Foundation of China (Grant No. 12575053) and the National Key Research and Development Program of China (Grant No. 2021YFC2203100).",248,text,Source_108,2510.22218v1
+109,"\bibliographystyle{apsrev4-1}
+\bibliography{bibfile.bib}
+",\bibliographystyle{apsrev4-1} \bibliography{bibfile.bib},56,text,Source_109,2510.22218v1
+110,\author{Chengrui Yang},\author{Chengrui Yang},22,text,Source_110,2510.22218v1
+111,\title{Avoiding PBH overproduction in inflation model with modified dispersion relation},\title{Avoiding PBH overproduction in inflation model with modified dispersion relation},88,text,Source_111,2510.22218v1
+112,"\begin{abstract}
+   The Pulsar Timing Array (PTA) data of nano-Hertz gravitational waves released in 2023 implies that if such gravitational waves comes from the scalar perturbation induction at the end of inflation, the accompanied primordial black holes (PBHs) will be over-produced, with the fraction exceed the upper bound of unity. This is recognized as the ``overproduction problem"", which calls for nontrivial features in the early universe. In this paper, we try to check out whether a modified dispersion relation (MDR) of the primordial perturbations can be helpful for solving the problem. From the constraint on PTA data, we obtain a posterior distribution of the parameters of primordial perturbation, and find that the MDR model, where the $k^4$ term becomes important at later time, can give rise to a broken-power-law (BPL) power spectrum which can alleviate the overproduction problem to nearly $2\sigma$ level. However, to improve furtherly into $1\sigma$ still needs small negative non-Gaussianity, e.g. $f_{\rm nl}\simeq -1$. The mass distribution of the PBHs generated is also discussed.
+\end{abstract}","\begin{abstract}
+   The Pulsar Timing Array (PTA) data of nano-Hertz gravitational waves released in 2023 implies that if such gravitational waves comes from the scalar perturbation induction at the end of inflation, the accompanied primordial black holes (PBHs) will be over-produced, with the fraction exceed the upper bound of unity. This is recognized as the ``overproduction problem"", which calls for nontrivial features in the early universe. In this paper, we try to check out whether a modified dispersion relation (MDR) of the primordial perturbations can be helpful for solving the problem. From the constraint on PTA data, we obtain a posterior distribution of the parameters of primordial perturbation, and find that the MDR model, where the $k^4$ term becomes important at later time, can give rise to a broken-power-law (BPL) power spectrum which can alleviate the overproduction problem to nearly $2\sigma$ level. However, to improve furtherly into $1\sigma$ still needs small negative non-Gaussianity, e.g. $f_{\rm nl}\simeq -1$. The mass distribution of the PBHs generated is also discussed.
+\end{abstract}",1123,text,Source_112,2510.22218v1
+113,"where the subscript ``$,r$"" denotes derivative with respect to $r$. Therefore, the mass excess turns out to be:
+\begin{eqnarray}
+    \delta M&=&4\pi a^3\rho_0\int\delta r^2e^{-3\zeta}(1-r\zeta_{,r}){{d}}r~,\nonumber\\
+    &=&\frac{3(1+w)}{2(5+3w)}ar^2e^{-\zeta}\zeta_{,r}(2-r\zeta_{,r})~,
+\end{eqnarray}
+where $\rho_0$ is the background value of $\rho$, $R=are^{-\zeta}$, while the density contrast $\delta\equiv\delta\rho/\rho_0$ is calculated as \cite{Harada:2015yda}:
+","where the subscript ``"" denotes derivative with respect to . Therefore, the mass excess turns out to be: M&=&4 a^3_0 r^2e^{-3}(1-r_{,r}){{d}}r~, &=&{2(5+3w)}ar^2e^{-}_{,r}(2-r_{,r})~, where is the background value of , , while the density contrast is calculated as :",266,text,Source_113,2510.22218v1
+114,"\begin{eqnarray}
+{u^{\rm{sr}}_k}(k,\tau)&=&\sqrt{-\tau}\left(C^{\rm{sr}}_{1}H^{(1)}_{3/2}(-c_sk\tau)+C^{\rm{sr}}_{2}H^{(2)}_{3/2}(-c_sk\tau)\right)~,\\
+","{u^{}_k}(k,)&=&(C^{}_{1}H^{(1)}_{3/2}(-c_sk)+C^{}_{2}H^{(2)}_{3/2}(-c_sk))~,",76,text,Source_114,2510.22218v1
+115,\author{Weixin Cai},\author{Weixin Cai},19,text,Source_115,2510.22218v1
+116,\author{Taotao Qiu},\author{Taotao Qiu},19,text,Source_116,2510.22218v1
