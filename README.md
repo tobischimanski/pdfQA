@@ -26,14 +26,16 @@ relevant source, 138
 file the relevant sources are clustered, 140
 - file_length*: the length of the file.
 
-## (Raw Data, PDF) tuples
+## (Raw Data, PDF) tuples and Code
 To use the dataset effectively, the Raw Data files (e.g. ".html", ".tex") and PDFs are provided in the folders:
 - syn-pdfQA: [README file](https://github.com/tobischimanski/pdfQA/blob/main/syn-pdfQA/README_syn.md) and [access to all files](https://drive.google.com/drive/folders/15mBSETh24BVkuchvozJ40YWt51OkfL8s?usp=sharing)
 - real-pdfQA: [README file](https://github.com/tobischimanski/pdfQA/blob/main/real-pdfQA/README_real.md) and [access to all files](https://drive.google.com/drive/folders/1uUd_n4QCg7WBZnoX-4yRwoa-J8OAGIXh?usp=sharing)
 
-## GitHub in Progress
+The code of the synthethic data generation and filtering pipeline is in "syn-pdfQA" and described in the corresponding [README file](https://github.com/tobischimanski/pdfQA/blob/main/syn-pdfQA/README_syn.md).
 
-We will work on further details in the upcoming weeks. If you need anything, feel free to reach out to tobias.schimanski@df.uzh.ch in the meantime.
+## Further Requests
+
+This is ongoing work. If you have any questions, feel free to reach out to tobias.schimanski@df.uzh.ch.
 
 ## Citation
 
