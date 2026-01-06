@@ -1,5 +1,6 @@
 # real-pdfQA
 
+## Data
 "real-PDFQA" is created based on the following datasets (see also [the pdfQA paper](https://arxiv.org/abs/2601.02285v1)):
 - [ClimRetrieve](https://aclanthology.org/2024.emnlp-main.969/)
 - [FinQA](https://arxiv.org/abs/2109.00122)
@@ -17,5 +18,6 @@ We create tuples of (raw data, PDF) for the pipeline. The "raw data" comes from 
 
 All (raw data, PDF) tuples can be found in [this Google Drive folder](https://drive.google.com/drive/folders/1fc3TT3aycxvyctSMQ3MNQEflXx8BflGh?usp=sharing). We are working on making it more accessible in the future.
 
-
+## Code for Data Generation and Filtering
+The filtering pipeline is analogous to "syn-pdfQA", see also [README_syn](https://github.com/tobischimanski/pdfQA/blob/main/syn-pdfQA/README_syn.md).
 
