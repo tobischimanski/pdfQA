@@ -1,6 +1,6 @@
 # pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs
 
-This is the repository for the paper "pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs". It aims to make the benchmark dataset based on PDFs accessible and easy to use.
+This is the repository for the paper [pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs](https://arxiv.org/abs/2601.02285v1). It aims to make the benchmark dataset based on PDFs accessible and easy to use.
 
 We start with a dataset description.
 
@@ -35,3 +35,17 @@ To use the dataset effectively, the Raw Data files (e.g. ".html", ".tex") and PD
 
 We will work on further details in the upcoming weeks. If you need anything, feel free to reach out to tobias.schimanski@df.uzh.ch in the meantime.
 
+## Citation
+
+If you use the dataset, please cite:
+```shell
+@misc{schimanski2026pdfqa,
+      title={pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs}, 
+      author={Tobias Schimanski and Imene Kolli and Jingwei Ni and Yu Fan and Ario Saeid Vaghefi and Elliott Ash and Markus Leippold},
+      year={2026},
+      eprint={2601.02285},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.02285}, 
+}
+```
