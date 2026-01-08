@@ -1,7 +1,7 @@
 # real-pdfQA
 
 ## Data
-"real-PDFQA" is created based on the following datasets (see also [the pdfQA paper](https://arxiv.org/abs/2601.02285v1)):
+"real-PDFQA" is created based on the following datasets (see also [the pdfQA paper](https://arxiv.org/abs/2601.02285)):
 - [ClimRetrieve](https://aclanthology.org/2024.emnlp-main.969/)
 - [FinQA](https://arxiv.org/abs/2109.00122)
 - [FinanceBench](https://arxiv.org/abs/2311.11944)
