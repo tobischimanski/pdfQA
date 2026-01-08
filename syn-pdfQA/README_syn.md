@@ -1,6 +1,6 @@
 # syn-pdfQA
 
-"syn-pdfQA" is created using the synthethic data generation pipeline describe in the [the pdfQA paper](https://arxiv.org/abs/2601.02285v1). 
+"syn-pdfQA" is created using the synthethic data generation pipeline describe in the [the pdfQA paper](https://arxiv.org/abs/2601.02285). 
 
 ## Data
 We use tuples of (raw data, PDF) for the pipeline. The "raw data" comes in a structured form like ".html" or ".tex". An exact file for a QA pair in "syn-pdfQA" can be identified using the '{file_type}/{file_name}' combination in the three folders:
