@@ -1,6 +1,6 @@
 # pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs
 
-This is the repository for the paper [pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs](https://arxiv.org/abs/2601.02285v1). It aims to make the benchmark dataset based on PDFs accessible and easy to use.
+This is the repository for the paper [pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs](https://arxiv.org/abs/2601.02285). It aims to make the benchmark dataset based on PDFs accessible and easy to use.
 
 We start with a dataset description.
 
