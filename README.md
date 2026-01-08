@@ -43,7 +43,7 @@ If you use the dataset, please cite:
 ```shell
 @misc{schimanski2026pdfqa,
       title={pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs}, 
-      author={Tobias Schimanski and Imene Kolli and Jingwei Ni and Yu Fan and Ario Saeid Vaghefi and Elliott Ash and Markus Leippold},
+      author={Tobias Schimanski and Imene Kolli and Yu Fan and Ario Saeid Vaghefi and Jingwei Ni and Elliott Ash and Markus Leippold},
       year={2026},
       eprint={2601.02285},
       archivePrefix={arXiv},
