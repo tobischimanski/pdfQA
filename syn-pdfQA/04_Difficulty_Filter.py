@@ -81,9 +81,9 @@ Evaluation Form (output ONLY a single score - nothing else):
 
 
 def open_raw_file(file_path, report_type, reduce_file_by=0):
-  file_name = file_path.split("\\")[-1].split("_vfQA.")[0] # change to \\ from / for windows
+  file_name = file_path.split("/")[-1].split("_vfQA.")[0] # change to \\ from / for windows
   # for 10K
-  if report_type == "financial reports":
+  if report_type == "10K":
     report_type_file_ending = ".htm"
     raw_file = f"01.1_Input_Files_Non_PDF/{report_type}/{file_name}{report_type_file_ending}"
     with open(raw_file, "r", encoding="utf-8") as f:
@@ -93,7 +93,7 @@ def open_raw_file(file_path, report_type, reduce_file_by=0):
     plain_text = soup.get_text(separator=" ", strip=True)
     return plain_text
   # for Arxiv
-  if report_type == "research articles":
+  if report_type == "Arxiv":
     report_type_file_ending = ".tex"
     raw_file = f"01.1_Input_Files_Non_PDF/{report_type}/{file_name}{report_type_file_ending}"
 
@@ -103,7 +103,7 @@ def open_raw_file(file_path, report_type, reduce_file_by=0):
 
   # for Sust_reports, books
   # since these files are so long, integrate options of reducing the file randomly if it is too long for long-context QA
-  if report_type == "sustainability disclosures" or report_type == "books":
+  if report_type == "Sust_reports" or report_type == "books":
     report_type_file_ending = ".parquet"
     raw_file = f"02_Parsed_Input_Files_to_Sources/{report_type}/{file_name}_clustered{report_type_file_ending}"
     df = pd.read_parquet(raw_file)
@@ -112,14 +112,6 @@ def open_raw_file(file_path, report_type, reduce_file_by=0):
       df = df.sample(frac=1-reduce_file_by, random_state=42)
       # order by source_identifier
       df = df.sort_values(by="source_identifier")
-    string = "\n\n\n".join([str(x) for x in df.content.to_list()])
-    return string
-
-  # for books
-  if report_type == "books":
-    report_type_file_ending = ".parquet" # TODO: ADJUST PER CATEGORY
-    raw_file = f"02_Parsed_Input_Files_to_Sources/{report_type}/{file_name}_clustered{report_type_file_ending}"
-    df = pd.read_parquet(raw_file)
     string = "\n\n\n".join([str(x) for x in df.content.to_list()])
     return string
 
