@@ -1,7 +1,7 @@
 # pdfQA: Diverse, Challenging, and Realistic Question Answering over PDFs
 
 <p align="center">
-  <img src="assets/logo.png" width="800">
+  <img src="assets/logo.png" width="380">
 </p>
 
 <p align="center">
@@ -184,7 +184,9 @@ If you use **pdfQA**, please cite:
 # Links
 
 Paper: https://arxiv.org/abs/2601.02285
+
 Hugging Face Dataset: https://huggingface.co/datasets/pdfqa/pdfQA-Benchmark
+
 GitHub Repository: https://github.com/tobischimanski/pdfQA
 
 ------------------------------------------------------------------------
