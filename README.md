@@ -183,9 +183,8 @@ If you use **pdfQA**, please cite:
 
 # Links
 
-Paper: https://arxiv.org/abs/2601.02285\
-Hugging Face Dataset:
-https://huggingface.co/datasets/pdfqa/pdfQA-Benchmark\
+Paper: https://arxiv.org/abs/2601.02285
+Hugging Face Dataset: https://huggingface.co/datasets/pdfqa/pdfQA-Benchmark
 GitHub Repository: https://github.com/tobischimanski/pdfQA
 
 ------------------------------------------------------------------------
